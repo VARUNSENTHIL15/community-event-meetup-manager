@@ -1,0 +1,64 @@
+section {
+  max-width: 40rem;
+  margin: 3rem auto;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.community_event_manager-item {
+  margin: 1rem 0;
+  background-color: #43859e;
+  padding: 2rem;
+  color: rgb(255, 253, 253);
+  border-radius: 4px;
+}
+
+.community_event_manager-summary {
+  display: flex;
+  align-items: flex-start;
+}
+
+.community_event_manager-image {
+  margin-right: 2rem;
+}
+
+.community_event_manager-image img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.community_event_manager-details h3 {
+  color: inherit;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.community_event_manager-details address {
+  font-style: italic;
+}
+
+.community_event_manager-actions {
+  margin-top: 1.5rem;
+  text-align: right;
+}
+
+.community_event_manager-actions #btn {
+  background-color: #bcfb82;
+  border-color: #dbfb82;
+  color: #904804;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+}
+
+.community_event_manager-actions #btn:hover {
+  background-color: #82dffb;
+  border-color: #82e9fb;
+}
+
